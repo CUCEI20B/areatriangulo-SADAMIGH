@@ -3,10 +3,11 @@
 using namespace std;
 
 int main() {
-    unsigned int lado;
+    unsigned int base, altura;
     
-    cin >> lado;
-    cout << lado * lado << endl;
+    cin >> base;
+    cin >> altura;
+    cout << (base * altura) / 2 << endl;
 
     return 0;
 }
